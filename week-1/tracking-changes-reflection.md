@@ -20,7 +20,7 @@ This argument refers to the last commit made.
 
 What are the 3 stages of a git change and how do you move a file from one stage to the other?
 
-The three stages are to create a feature branch, stage your revisions, followed by commiting your changes. To move a file from one stage to the other you use the commit command. 
+The three stages are to  stage your revisions, commiting your revisions, followed by pushing your changes to GitHub. To move a file from one stage to the other you use the commit command. 
 
 
 Write a handy cheatsheet of the commands you need to commit your changes?
