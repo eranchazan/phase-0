@@ -1,6 +1,6 @@
 
-![Wireframe-index was unable to load!](eranchazan.github.io/blog/wireframe-index.png)
-![Wireframe-blog-index was unable to load!](eranchazan.github.io/index/wireframe-blog-index.png)
+![Wireframe-index was unable to load!](eranchazan.github.io/wireframe-index.png)
+![Wireframe-blog-index was unable to load!](eranchazan.github.io/wireframe-blog-index.png)
 
 What is a wireframe?
 A wireframe is a screen blueprint or page schematic for the skeletal framework of a website.  
