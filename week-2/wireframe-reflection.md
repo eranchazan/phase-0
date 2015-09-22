@@ -1,7 +1,7 @@
 
 
-![wirerame index](week-2/wireframe-index.png)
-![wireframe blog index](week-2/wireframe-blog-index.png)
+![wirerame index](imgs/wireframe-index.png)
+![wireframe blog index](imgs/wireframe-blog-index.png)
 
 What is a wireframe?
 A wireframe is a screen blueprint or page schematic for the skeletal framework of a website.  
