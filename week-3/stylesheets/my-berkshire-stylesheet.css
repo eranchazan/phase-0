@@ -1,3 +1,86 @@
-html {
-  background-color: red;
+
+p, h1, h2, h3, ul li {
+    color: #000080;
 }
+
+header {
+    text-decoration: bold;
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin: auto;
+}
+
+h1 > span {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: .8em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+img {}
+
+a {
+    color: #800080;
+}
+
+a:visited {
+    color: #FF0000;
+}
+
+html {
+    background-color: white;
+}
+
+li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+p.line {
+    border-bottom: 1px solid gray;
+}
+
+.info {
+    margin: auto;
+    text-align: center;
+    clear: both;
+}
+
+.info > p {
+    margin: 0px;
+    font-size: .6em;
+}
+
+/*What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It's important to where to link an external file in the HTML document, and what keywords to use to link the external file. 
+You link the external file in the Head of the HTMl document. Use type link rel="stylesheet" type="text/css" href="path of css file"> to link the css file 
+to the HTML file. 
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+We learned Block: this won't let anything sit next to it on the page. Inline-block: this makes the element a block box but will allow other elements to sit 
+next to it on the same line. Inline: this makes the element sit on the same line as another element but without formatting it like a block, it takes as much 
+width as it needs. None: this makes the element and its content disappear from the page entirely. Additional commands were padding to adjust the space between
+the border and the content. In the end I used margin auto which had the browers calculate the margin. It took a while to get the site to what I wanted it to look
+like.  
+
+What CSS did you use to modify the element style (like size, color, etc.)
+We used <em> and <font-size> to change the size of text. a:visited as a psuedo class element for those links that have been click one. The Float element to position 
+individual elements where there aren't any preexisting elements. As well as color for the font and background-color for the background. 
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+We used classes and not ID's because there were no individual elements that we needed to sytle. It was always batch element styling i.e. you need a class. 
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I believe our code base was much cleaner simply based on the fact that we could roughly produce the same document with 69 lines of code instead of 125. 
+*/
+
+
