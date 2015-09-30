@@ -9,9 +9,7 @@ def get_grade (average)
 		return "D"
 	else 
 		return "F"
-		puts "F"
+		
 	end
 end
 
-
-get_grade(5)
