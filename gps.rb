@@ -2,7 +2,7 @@
 # 1) Eran Chazan
 # 2) 
 
-# We spent [3] hours on this challenge.
+# I spent [3] hours on this challenge.
 
 # Bakery Serving Size portion calculator.
 
