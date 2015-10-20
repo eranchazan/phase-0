@@ -4,7 +4,7 @@
 # We spent [#] hours on this challenge.
 
 # EXPLANATION OF require_relative
-#
+# Allows you to load the state_data.rb file
 #
 require_relative 'state_data'
 
@@ -87,11 +87,20 @@ alaska = VirusPredictor.new("Alaska", STATE_DATA["Alaska"][:population_density],
 alaska.virus_effects
 #Reflection
 # What are the differences between the two different hash syntaxes shown in the state_data file?
+# The first hash syntax is called the hash rocket (now depricated)syntax with hash = {key=>value}. 
+# The second hash syntax: hash = {key: value}.
+# 
 #What does require_relative do? How is it different from require?
+# require_relative allowes you to load a file and gain access to it relative to the file containing the statement.  
+# require_relative looks up the relative path of the other file in relation to it. Require just allows you to access 
+# another file. 
+# 
 #What are some ways to iterate through a hash?
+# To iterate throught a hash you use the .each method, .each_key, each_value, 
 #When refactoring virus_effects, what stood out to you about the variables, if anything?
-#What concept did you most solidify in this challenge?
 #
+#What concept did you most solidify in this challenge?
+# I solidified how to iterate over a nested hash. when outside a class. 
 #
 #
 #
