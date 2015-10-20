@@ -1,7 +1,7 @@
 # Virus Predictor
 
 # I worked on this challenge [by myself, with: ].
-# We spent [#] hours on this challenge.
+# We spent [3] hours on this challenge.
 
 # EXPLANATION OF require_relative
 # Allows you to load the state_data.rb file
@@ -26,7 +26,7 @@ class VirusPredictor
   def predicted_deaths
     # predicted deaths is solely based on population density
     case @population_density
-    when@population_density >= 200
+    when @population_density >= 200
       number_of_deaths = (@population * 0.4).floor
      when @population_density >= 150
       number_of_deaths = (@population * 0.3).floor
