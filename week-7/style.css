@@ -1,0 +1,10 @@
+h1 {
+  padding: 20px;
+  width:; 500px;
+  font-size: 1em;
+  color: black;
+}
+
+#status {
+  color:  red;
+}
