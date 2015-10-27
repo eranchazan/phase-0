@@ -35,11 +35,11 @@
 // create an empty contestant object and give it a job property = to work for donald Trump:
 var contestants = []
 var anOtherContestant = {};
-anOtherContestant.job = "1"
-anOtherContestant.name = "2"
-anOtherContestant.nationality = "3"
-anOtherContestant.party = "4"
-anOtherContestant.collegeGpa = "5"
+anOtherContestant.job = 
+anOtherContestant.name = 
+anOtherContestant.nationality = 
+anOtherContestant.party = 
+anOtherContestant.collegeGpa = 
 
 window.onload = function what(){
 document.getElementById("onestatus").innerHTML = anOtherContestant.job;
