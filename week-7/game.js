@@ -36,7 +36,7 @@
 var contestants = []
 var anOtherContestant = {};
 anOtherContestant.job = 
-anOtherContestant.name = 
+anOtherContestant.namee = 
 anOtherContestant.nationality = 
 anOtherContestant.party = 
 anOtherContestant.collegeGpa = 
@@ -45,7 +45,7 @@ window.onload = function what(){
 document.getElementById("onestatus").innerHTML = anOtherContestant.job;
 document.getElementById("onepartyz").innerHTML = anOtherContestant.party;
 document.getElementById("onenationalityz").innerHTML = anOtherContestant.nationality;
-document.getElementById("onenamez").innerHTML = anOtherContestant.name;
+document.getElementById("onenamez").innerHTML = anOtherContestant.namee;
 document.getElementById("onegpaz").innerHTML = anOtherContestant.collegeGpa;
 
 };
@@ -57,10 +57,10 @@ var contestantYou = {};
 contestantYou.job = "Working for donald trump";
 document.getElementById("status").innerHTML = contestantYou.job;
 // create a property of this object called name based on the answer provided by the prompt (browser only)
-contestantYou.name =  prompt("Hello, and Welcome to the Apprentace. Pleast provide you name.");
-document.getElementById("namez").innerHTML = contestantYou.name;
+contestantYou.namee =  prompt("Hello, and Welcome to the Apprentace. Pleast provide you name.");
+document.getElementById("namez").innerHTML = contestantYou.namee;
 
-if (contestantYou.name === null) {
+if (contestantYou.namee === null) {
   console.log('Please provide a valid name');
 }
 
@@ -118,11 +118,11 @@ console.log(contestantYou);
 // create an empty contestant object and give it a job property = to work for donald Trump:
 var contestants = []
 var anOtherContestant = {};
-anOtherContestant.job = "1"
-anOtherContestant.namee = "2"
-anOtherContestant.nationality = "3"
-anOtherContestant.party = "4"
-anOtherContestant.collegeGpa = "5"
+anOtherContestant.job =
+anOtherContestant.namee = 
+anOtherContestant.nationality = 
+anOtherContestant.party = 
+anOtherContestant.collegeGpa = 
 
 window.onload = function what(){
 document.getElementById("onestatus").innerHTML = anOtherContestant.job;
@@ -134,12 +134,13 @@ document.getElementById("onegpaz").innerHTML = anOtherContestant.collegeGpa;
 };
 
 console.log(anOtherContestant);
+
 var contestantYou = {};
 
 
 contestantYou.job = "Working for donald trump";
 document.getElementById("status").innerHTML = contestantYou.job;
-// create a property of this object called namee (name is a reserved word) based on the answer provided by the prompt (browser only)
+// create a property of this object called namee (namee is a reserved word) based on the answer provided by the prompt (browser only)
 contestantYou.namee =  prompt("Hello, and Welcome to the Apprentace. Pleast provide your name.");
 document.getElementById("namez").innerHTML = contestantYou.namee;
 
