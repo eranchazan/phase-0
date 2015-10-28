@@ -18,7 +18,7 @@
 
 10. SELECT region_name, state_name FROM states INNER JOIN regions ON states.region_id=regions.id ORDER BY region_ID ASC;
 
-![Release_6](/release_6.png)
+![Release_6](/Release_6.png)
 
 What are databases for?
 Databases are used for organizing information so that it can be easily accessed, managed, and updated when you have hundreds or even millions of records. 
