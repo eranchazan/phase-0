@@ -1,6 +1,6 @@
-![one-to-one relationship model](/imgs/Release_2.png)
+![one-to-one relationship model](imgs/Release_2.png)
 
-![many-to-many relationship model](/imgs/Release_4.png)
+![many-to-many relationship model](imgs/Release_4.png)
 
 What is a one-to-one database?
 A relationship between two entities in which they share a single relationship to one another, essentially like a pair i.e. a nucleus and an atom. 
