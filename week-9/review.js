@@ -11,7 +11,11 @@
 //console log the list  
 
 //Initial Solution
- /*list.add_items = function(item, quantity) {
+ /*
+
+ var list = {}
+
+ list.add_items = function(item, quantity) {
   list[item] = quantity;
    
 };
@@ -30,6 +34,8 @@ list.print = function(list) {
 */
 
 //Refactored Solution 
+var list = {}
+
  list.add_items = function(item, quantity) {
   list[item] = quantity;
    
